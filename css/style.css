@@ -166,3 +166,6 @@ header span{
 	margin-top: 14px;
 	margin-right: 23px;
 }
+.main{
+	background-image: url(../img/mainbg.jpg);
+}
