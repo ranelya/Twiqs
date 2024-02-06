@@ -74,13 +74,13 @@ textarea {
 body {
 	font-size: 14px;
 	line-height: 19px;
-	color: #242424;
+	color: rgb(151, 171, 74);
 	width: 100%;
 	font-family: 'Manrope', arial, sans-serif;
 }
 
 .container {
-	max-width: 1325px;
+	max-width: 1440px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
@@ -112,7 +112,7 @@ section {
 	border: 1px solid rgb(151, 171, 74);
 	border-radius: 40px;
 	background: rgb(151, 171, 74);
-	color:rgb(252, 248, 243);
+	color: rgb(252, 248, 243);
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 25.2px;
@@ -131,9 +131,38 @@ section {
 .btn:hover {
 	box-shadow: 0px 6px 5px 2px #836A36;
 }
+
 .flex {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
+.logotip {
+	margin-top: 8px;
+	flex-wrap: nowrap;
+}
+
+.logotip img {
+	width: 100px;
+	margin-right: 29px;
+}
+.menu{
+	margin-top: 30px;
+}
+.menu a {
+	margin-right: 55px;
+	color: rgb(217, 110, 0);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+header{
+	background-color: rgb(229,229,229);
+}
+header span{
+	margin-top: 14px;
+	margin-right: 23px;
+}
