@@ -253,3 +253,8 @@ t {
 .text .sec_tit{
 	margin-bottom: 63px;
 }
+
+.card-img{
+	width: 220px;
+	height: 220px;
+}
