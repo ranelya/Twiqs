@@ -289,5 +289,18 @@ t {
 	height: 47px;
 }
 
+.postcard-wrap {
+  display: flex;
+  justify-content: space-between;
+}
 
 
+
+.post_img {
+	width: 576px;
+	height: 516px;
+	top: 0.47px;
+  display: block;
+  background-position: center;
+  background-size: cover;
+}
