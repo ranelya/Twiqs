@@ -282,6 +282,8 @@ t {
 	/* margin: 0 auto; */
   margin: 70px 600px 0;
 	background-color: #AAD114;
+	width: 175px;
+	height: 47px;
 }
 
 .card_txt{
