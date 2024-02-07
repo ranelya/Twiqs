@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
 html,
 body {
 	height: 100%;
@@ -254,19 +256,26 @@ t {
 	margin-bottom: 63px;
 }
 
+.card{
+	width: 302px;
+	height: 310px;
+	left: 331px;
+}
+
 .card-img{
-	width: 302.39px;
-	height: 310.69px;
-	padding: 0px, 36.39px, 0px, 36px;
+  width: 220px;
+  height: 220px;
 	
 }
 
 .transpency_tit{
-  font: 'Reenie Beanie';
+	font-family: 'Reenie Beanie', cursive;
+	color: #8E9373;
 	text-align: center;
-	font-weight: 500;
-	font-style: 53px;
+	font-weight: 400;
+	font-size: 43px;
 	line-height: 54px;
+	margin: 60px;
 }
 
 .btn_green{
@@ -275,3 +284,16 @@ t {
 	background-color: #AAD114;
 }
 
+.card_txt{
+	width: 267px;
+	height: 71px;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 35px;
+	text-align: center;
+	color: #81972C;
+}
+
+.card_txt_selected{
+	color: #D96E00;
+}
