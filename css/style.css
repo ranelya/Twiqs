@@ -233,9 +233,10 @@ t {
 	width: 645px;
 	position: absolute;
 	left: 25%;
-    top: 128%;
+	top: 128%;
 
 }
+
 /* .feedback_txt:nth-child(1){
 	margin-right: 55px;
 }
@@ -249,26 +250,28 @@ t {
 	line-height: 34.56px;
 	text-align: left;
 }
-.icons img{
+
+.icons img {
 	margin-right: 6px;
 }
-.text .sec_tit{
+
+.text .sec_tit {
 	margin-bottom: 63px;
 }
 
-.card{
+.card {
 	width: 302px;
 	height: 310px;
 	left: 331px;
 }
 
-.card-img{
-  width: 220px;
-  height: 220px;
-	
+.card-img {
+	width: 220px;
+	height: 220px;
+
 }
 
-.transpency_tit{
+.transpency_tit {
 	font-family: 'Reenie Beanie', cursive;
 	color: #8E9373;
 	text-align: center;
@@ -278,24 +281,13 @@ t {
 	margin: 60px;
 }
 
-.btn_green{
+.btn_green {
 	/* margin: 0 auto; */
-  margin: 70px 600px 0;
+	margin: 70px 600px 0;
 	background-color: #AAD114;
 	width: 175px;
 	height: 47px;
 }
 
-.card_txt{
-	width: 267px;
-	height: 71px;
-	font-weight: 400;
-	font-size: 25px;
-	line-height: 35px;
-	text-align: center;
-	color: #81972C;
-}
 
-.card_txt_selected{
-	color: #D96E00;
-}
+
