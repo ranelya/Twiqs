@@ -260,7 +260,7 @@ t {
 }
 
 .card {
-	width: 302px;
+	width: 248px;
 	height: 310px;
 	left: 331px;
 }
@@ -368,4 +368,39 @@ t {
 	display: block;
 	background-position: center;
 	background-size: cover;
+}
+
+.products_tit{
+	font: 'Roboto';
+	font-weight: 400;
+	font-size: 51px;
+	line-height: 64px;
+	color: #212806;
+}
+
+.products-cards{
+	display: flex;
+	flex-wrap: row;
+	justify-content: space-around;
+	gap: 50px;
+}
+
+.card_products{
+	width: 422px;
+	height: 521px;
+	margin-top: 40px;
+}
+
+.card-txt{
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+  background-color: #B99C7E;
+}
+
+.card-txt_white{
+	background-color: #EEE9E9;
+}
+.card-txt_orange{
+	background-color: #CC6800;
 }
