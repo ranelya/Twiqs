@@ -95,4 +95,72 @@
 		padding: 14px 28px;
 	}
 }
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+	.postcard-wrap {
+		flex-direction: column;
+	}
+
+	.postcard_info {
+		order: 2;
+		margin-bottom: 20px;
+	}
+
+	.postcard_img {
+		order: 1;
+	}
+
+	.post_img {
+		width: 100%;
+		height: auto;
+	}
+
+	.postcard_tit {
+		font-size: 1.5rem;
+	}
+
+	.postcard_txt {
+		font-size: 1rem;
+	}
+
+	.postcard_btn {
+		margin-top: 20px;
+	}
+}
+
+/* Для планшетов и настольных компьютеров */
+@media (min-width: 769px) {
+	.postcard-wrap {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.postcard_info {
+		flex-basis: 50%;
+		margin-right: 20px;
+	}
+
+	.postcard_img {
+		flex-basis: 50%;
+	}
+
+	.post_img {
+		width: 100%;
+		height: auto;
+	}
+
+	.postcard_tit {
+		font-size: 2rem;
+	}
+
+	.postcard_txt {
+		font-size: 1.25rem;
+	}
+
+	.postcard_btn {
+		margin-top: 0;
+	}
+}
 
