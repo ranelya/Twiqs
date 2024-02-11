@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Roboto+Condensed&display=swap');
 
 html,
 body {
@@ -30,11 +31,11 @@ ul li:last-child {
 	margin-bottom: 0;
 }
 
-img {
+/* img {
 	display: block;
 	width: 100%;
 	height: auto;
-}
+} */
 
 button,
 label {
@@ -275,31 +276,69 @@ t {
 	font-family: 'Reenie Beanie', cursive;
 	color: #8E9373;
 	text-align: center;
+	font-weight: 500;
+	font-size: 53px;
+	line-height: 64px;
+	position: relative;
+	bottom: 35px;
+}
+
+.cards-wrap{
+	position: relative;
+	top: 25px;
+	right: 10px;
+}
+
+.card{
+	max-width: 302px;
+	max-height: 310px;
+}
+.card-img{
+	max-width: 220px;
+	max-height: 220px;
+	margin: 0 auto;
+}
+
+.card_txt {
+	font-family: 'Roboto';
+	font-size: 25px;
 	font-weight: 400;
-	font-size: 43px;
-	line-height: 54px;
-	margin: 60px;
+	line-height: 35px;
+	letter-spacing: 0em;
+	text-align: center;
+	width: 270px;
+	height: 71px;
+	top: 235.94px;
+	left: 16.63px;
+	
+}
+
+.card_txt_selected{
+  color: #CC6800;
 }
 
 .btn_green {
-	/* margin: 0 auto; */
-	margin: 70px 600px 0;
+	margin: 0 auto;
 	background-color: #AAD114;
 	width: 175px;
 	height: 47px;
+position: relative;
+top: 40px;
+}
+
+.btn_green:hover {
+	background-color: #EEE9E9;
+	color: #AAD114;
 }
 
 .postcard-wrap {
 	display: flex;
 	justify-content: space-between;
-	gap: 250px;
 }
 
 .postcard-wrap {
-	width: 504px;
-	height: 506.64px;
 	left: 72px;
-
+	box-sizing: border-box;
 }
 
 .mini-tit {
@@ -312,17 +351,20 @@ t {
 	width: 74px;
 	height: 15px;
 	margin: 10px 0;
+	position: relative;
+	bottom: 130px;
 }
 
 .postcard_tit {
 	color: #CC6800;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 41px;
 	font-family: 'Roboto';
 	line-height: 51px;
 	width: 508px;
 	height: 57px;
-	top: 20.47px;
+	bottom: 130px;
+	position: relative;
 }
 
 .postcard_txt {
@@ -331,8 +373,8 @@ t {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 28px;
-	margin: 0;
-	margin-top: 70px;
+	position: relative;
+	bottom: 75px;
 }
 
 .postcard_txt span {
@@ -352,26 +394,29 @@ t {
 	font-weight: 400;
 	line-height: 25px;
 	margin: 0;
-	margin-top: 235px;
+	position: relative;
+	top: 110px;
 	transition: .4s;
 }
 
-.postcard_btn:hover{
+.postcard_btn:hover {
 	color: #fff;
 	background: #CC6800;
 }
 
+
+
 .post_img {
-	width: 576px;
-	height: 516px;
-	top: 0.47px;
+	max-width: 576px;
+	max-height: 516px;
+
 	display: block;
 	background-position: center;
 	background-size: cover;
 }
 
 
-.products_tit{
+.products_tit {
 	font: 'Roboto';
 	font-weight: 400;
 	font-size: 51px;
@@ -380,29 +425,30 @@ t {
 }
 
 
-.products-cards{
+.products-cards {
 	display: flex;
 	flex-wrap: row;
 	justify-content: space-around;
 	gap: 50px;
 }
 
-.card_products{
+.card_products {
 	width: 422px;
 	height: 521px;
 	margin-top: 40px;
 }
 
-.card-txt{
+.card-txt {
 	text-align: center;
 	padding: 15px;
 	color: #fff;
-  background-color: #B99C7E;
+	background-color: #B99C7E;
 }
 
-.card-txt_white{
+.card-txt_white {
 	background-color: #EEE9E9;
 }
-.card-txt_orange{
+
+.card-txt_orange {
 	background-color: #CC6800;
 }
